@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #app, .wrapper {
+    width: 100%;
+}
+
+body {
+    background-image: url(../../assets/img/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #Fff;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+
+ol, ul, li {
+    list-style: none;
+    color: #Fff;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.content {
+    width: auto;
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.content-collapse {
+    left: 65px;
+}
+
+.container {
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.crumbs {
+    margin: 10px 0;
+}
+
+.pagination {
+    margin: 20px 0;
+    text-align: right;
+}
+
+.plugins-tips {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.el-button+.el-tooltip {
+    margin-left: 10px;
+}
+
+.el-table tr:hover {
+    background: #f6faff;
+}
+
+.mgb20 {
+    margin-bottom: 20px;
+}
+.mgt20 {
+    margin-top: 20px;
+}
+
+.grid-content {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.grid-cont-right {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+}
+
+.grid-num {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.grid-size {
+    font-size: 12px;
+    color: #999999;
+}
+
+.grid-con-icon {
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+}
+
+.grid-con-2 .grid-num {
+    color: rgb(45, 140, 240);
+}
+
+.mgb10 {
+    margin-bottom: 10px;
+}
+
+.mgl10 {
+    margin-left: 10px;
+}
+.color39E4FF{
+    color: #39E4FF;
+}
