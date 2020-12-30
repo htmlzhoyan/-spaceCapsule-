@@ -72,7 +72,7 @@ export default {
         notNextTick: true,
         // swiper configs 所有的配置同swiper官方api配置5000
         autoplay: {
-          delay: 500000,
+          delay: 5000,
           stopOnLastSlide: false,
           disableOnInteraction: false,
         },
